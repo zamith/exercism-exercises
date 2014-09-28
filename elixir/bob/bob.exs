@@ -14,8 +14,7 @@ defmodule Teenager do
 
   defp silence?(input) do
     input
-    |> String.strip
-    |> String.length == 0
+    |> String.strip == ""
   end
 
   defp question?(input) do
